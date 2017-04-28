@@ -7,18 +7,40 @@
 //
 
 import UIKit
+import MGTwitterVideoUploader
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+    @IBOutlet weak var textView: UITextView!
+    @IBAction func shareTapped(_ sender: UIButton) {
+        guard let videoPath = Bundle.main.path(forResource: "superKaioken", ofType:"mp4") else {
+            debugPrint("superKaioken.mp4 not found")
+            return
+        }
+        
+        let twitterUploader = MGTwitterVideoUploader()
+        twitterUploader.successCallback = { message in
+            DispatchQueue.main.async {
+                sender.isEnabled = true
+                self.setLoader(visible: false)
+                debugPrint(message ?? "Success without message")
+            }
+        }
+        twitterUploader.errorCallback = { error in
+            DispatchQueue.main.async {
+                sender.isEnabled = true
+                self.setLoader(visible: false)
+                print(error.localizedDescription)
+            }
+        }
+        
+        sender.isEnabled = false
+        setLoader(visible: true)
+        twitterUploader.postVideo(videoURL: URL(fileURLWithPath: videoPath), withStatus: textView.text)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func setLoader(visible: Bool) {
+        UIApplication.shared.isNetworkActivityIndicatorVisible = visible
     }
-
 }
 

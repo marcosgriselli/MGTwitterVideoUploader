@@ -1,0 +1,16 @@
+PODS:
+  - MGTwitterVideoUploader (0.1.0)
+
+DEPENDENCIES:
+  - MGTwitterVideoUploader (from `../`)
+
+EXTERNAL SOURCES:
+  MGTwitterVideoUploader:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MGTwitterVideoUploader: 3f8adba004fb0eea881352f16597a58f2c750978
+
+PODFILE CHECKSUM: a7cd8bddf5176020c3868ef233b06b6ce1118944
+
+COCOAPODS: 1.2.1

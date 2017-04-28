@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060BED2214C3FCE1726AC272374305DC /* Pods-MGTwitterVideoUploader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19CBE3993EBD7A440BD5B2602AE9F1E7 /* Pods-MGTwitterVideoUploader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24FBC05219460C42D1494329C0CA6744 /* MGTwitterVideoUploader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89590AF0EB8288160D1AC13AB5A62AB0 /* MGTwitterVideoUploader-dummy.m */; };
+		545FABE0047E00E6ADCB9ABF39D874D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		56A2383D0C69F2EBC22A9601C285F2FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		97C74B6BC5DC171EB50CAF1804349379 /* Pods-MGTwitterVideoUploader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5598FC8E961DA7C3AADD8B1D89F22FC /* Pods-MGTwitterVideoUploader_Example-dummy.m */; };
+		BD2677B6C97ABBBD608C032CAB8CD99D /* MGTwitterVideoUploader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C19555A598B8A4EE564B374D69891E2 /* MGTwitterVideoUploader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF08894B4A0FA8EC340F9D68F13E195E /* Pods-MGTwitterVideoUploader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 860AF870D659130B4BD264912A83C04F /* Pods-MGTwitterVideoUploader_Tests-dummy.m */; };
+		C6C3D01302AC67ABB88E20F85343D813 /* Pods-MGTwitterVideoUploader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67FC80C6E1AB3655F8A8C2C5992C2B6A /* Pods-MGTwitterVideoUploader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF93327A626A5BED942DFFEDFE1F0B41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FB7190641EB3711C00A63E52 /* MGTwitterVideoUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7190631EB3711C00A63E52 /* MGTwitterVideoUploader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BE37A5BA8230ABC912800DDB886C296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C2B9778F0223BC1DEA640264C91F44;
+			remoteInfo = MGTwitterVideoUploader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05FFF58E170BEB97EDCF0DCB3805008C /* Pods-MGTwitterVideoUploader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MGTwitterVideoUploader_Example.modulemap"; sourceTree = "<group>"; };
+		066AC5231D679A481666F0B3F14075FE /* Pods-MGTwitterVideoUploader_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGTwitterVideoUploader_Example-resources.sh"; sourceTree = "<group>"; };
+		13DA18CF65DE168C3DABC2A0A681C731 /* MGTwitterVideoUploader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MGTwitterVideoUploader.modulemap; sourceTree = "<group>"; };
+		16EC575EB856A1D4C9A161B9AFF2D4EB /* Pods-MGTwitterVideoUploader_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGTwitterVideoUploader_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		19CBE3993EBD7A440BD5B2602AE9F1E7 /* Pods-MGTwitterVideoUploader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGTwitterVideoUploader_Example-umbrella.h"; sourceTree = "<group>"; };
+		20BEA8B1A1C0453292C25E25E6CC5EB2 /* Pods-MGTwitterVideoUploader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGTwitterVideoUploader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		23FEDC4600C63021EFE76F428FB42200 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2895A3F3571BABCFD6BBD2CD140DB02C /* Pods-MGTwitterVideoUploader_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGTwitterVideoUploader_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2A186212579610504D748A1395E6EE53 /* Pods-MGTwitterVideoUploader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGTwitterVideoUploader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C19555A598B8A4EE564B374D69891E2 /* MGTwitterVideoUploader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGTwitterVideoUploader-umbrella.h"; sourceTree = "<group>"; };
+		3C682704F8E674DC352ADBA3A4AE8C26 /* Pods-MGTwitterVideoUploader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGTwitterVideoUploader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		47CA36881B155EA4100DAA01136B86A8 /* MGTwitterVideoUploader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGTwitterVideoUploader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		483B5D622E1A6963F31291FA24D39672 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ACB71721B34CC483AA164CB7E7D1AEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510E19BB2C68455ECB3050D48E17F32C /* Pods_MGTwitterVideoUploader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGTwitterVideoUploader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67FC80C6E1AB3655F8A8C2C5992C2B6A /* Pods-MGTwitterVideoUploader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGTwitterVideoUploader_Tests-umbrella.h"; sourceTree = "<group>"; };
+		772F2B6F53B95F128EE65BFD00F1F456 /* Pods-MGTwitterVideoUploader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGTwitterVideoUploader_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7CD7D6071366846EF1C5FCE26036BB1B /* Pods-MGTwitterVideoUploader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGTwitterVideoUploader_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		860AF870D659130B4BD264912A83C04F /* Pods-MGTwitterVideoUploader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGTwitterVideoUploader_Tests-dummy.m"; sourceTree = "<group>"; };
+		89590AF0EB8288160D1AC13AB5A62AB0 /* MGTwitterVideoUploader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGTwitterVideoUploader-dummy.m"; sourceTree = "<group>"; };
+		8A2AF05391B9C0C6D6CC457CA7A210B6 /* MGTwitterVideoUploader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGTwitterVideoUploader.xcconfig; sourceTree = "<group>"; };
+		8B89145CC577F8A2B4950D954A99BBB6 /* Pods-MGTwitterVideoUploader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGTwitterVideoUploader_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940EEB38AB4BF24EE996E06E30D959A5 /* Pods-MGTwitterVideoUploader_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGTwitterVideoUploader_Tests-resources.sh"; sourceTree = "<group>"; };
+		BA5F497B915F3181E097837AF35CD1DE /* Pods-MGTwitterVideoUploader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGTwitterVideoUploader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C078CA9E06D78E76166C67AE22C412C8 /* Pods-MGTwitterVideoUploader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MGTwitterVideoUploader_Tests.modulemap"; sourceTree = "<group>"; };
+		D0390BE7A0559BEE53A08FA6D88B6B78 /* MGTwitterVideoUploader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGTwitterVideoUploader-prefix.pch"; sourceTree = "<group>"; };
+		EF068FA12A4CB6E4F43BC9AD3B7518D2 /* Pods_MGTwitterVideoUploader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGTwitterVideoUploader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3BD72B8E0880DDC0288A338EBBA18E /* Pods-MGTwitterVideoUploader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGTwitterVideoUploader_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F5598FC8E961DA7C3AADD8B1D89F22FC /* Pods-MGTwitterVideoUploader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGTwitterVideoUploader_Example-dummy.m"; sourceTree = "<group>"; };
+		FB7190631EB3711C00A63E52 /* MGTwitterVideoUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGTwitterVideoUploader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		193842B2F145D803F78103D8E49DA033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545FABE0047E00E6ADCB9ABF39D874D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66486B16CB61885F922E2A0A4404310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF93327A626A5BED942DFFEDFE1F0B41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F911C95ED742ABE7446C774C8F76325F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A2383D0C69F2EBC22A9601C285F2FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E3080E7F1FEACE689CF42843F91217B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47CA36881B155EA4100DAA01136B86A8 /* MGTwitterVideoUploader.framework */,
+				EF068FA12A4CB6E4F43BC9AD3B7518D2 /* Pods_MGTwitterVideoUploader_Example.framework */,
+				510E19BB2C68455ECB3050D48E17F32C /* Pods_MGTwitterVideoUploader_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F6271EA2EFBFD93853E18CCBD538D39 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB7190631EB3711C00A63E52 /* MGTwitterVideoUploader.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		540D5E8D1EF2FA784FB3CECB5F3CCBC1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC28A1BECF0993966972ED226ED50C76 /* Pods-MGTwitterVideoUploader_Example */,
+				C111E39B3F5FE4E8FBAE3A2ADC898407 /* Pods-MGTwitterVideoUploader_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6FFD5B6579F2F4901E4CEFD5AB5F290A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9333DD651058B2112A56E04612B5C84F /* MGTwitterVideoUploader */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6FFD5B6579F2F4901E4CEFD5AB5F290A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2E3080E7F1FEACE689CF42843F91217B /* Products */,
+				540D5E8D1EF2FA784FB3CECB5F3CCBC1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9333DD651058B2112A56E04612B5C84F /* MGTwitterVideoUploader */ = {
+			isa = PBXGroup;
+			children = (
+				A8E50482D6E8440EF2F53CD52DC227A8 /* MGTwitterVideoUploader */,
+				FE81DFF4B73DD3F266AD83C541CFFDCF /* Support Files */,
+			);
+			name = MGTwitterVideoUploader;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A8E50482D6E8440EF2F53CD52DC227A8 /* MGTwitterVideoUploader */ = {
+			isa = PBXGroup;
+			children = (
+				4F6271EA2EFBFD93853E18CCBD538D39 /* Classes */,
+			);
+			path = MGTwitterVideoUploader;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C111E39B3F5FE4E8FBAE3A2ADC898407 /* Pods-MGTwitterVideoUploader_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				483B5D622E1A6963F31291FA24D39672 /* Info.plist */,
+				C078CA9E06D78E76166C67AE22C412C8 /* Pods-MGTwitterVideoUploader_Tests.modulemap */,
+				2895A3F3571BABCFD6BBD2CD140DB02C /* Pods-MGTwitterVideoUploader_Tests-acknowledgements.markdown */,
+				3C682704F8E674DC352ADBA3A4AE8C26 /* Pods-MGTwitterVideoUploader_Tests-acknowledgements.plist */,
+				860AF870D659130B4BD264912A83C04F /* Pods-MGTwitterVideoUploader_Tests-dummy.m */,
+				16EC575EB856A1D4C9A161B9AFF2D4EB /* Pods-MGTwitterVideoUploader_Tests-frameworks.sh */,
+				940EEB38AB4BF24EE996E06E30D959A5 /* Pods-MGTwitterVideoUploader_Tests-resources.sh */,
+				67FC80C6E1AB3655F8A8C2C5992C2B6A /* Pods-MGTwitterVideoUploader_Tests-umbrella.h */,
+				BA5F497B915F3181E097837AF35CD1DE /* Pods-MGTwitterVideoUploader_Tests.debug.xcconfig */,
+				7CD7D6071366846EF1C5FCE26036BB1B /* Pods-MGTwitterVideoUploader_Tests.release.xcconfig */,
+			);
+			name = "Pods-MGTwitterVideoUploader_Tests";
+			path = "Target Support Files/Pods-MGTwitterVideoUploader_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC28A1BECF0993966972ED226ED50C76 /* Pods-MGTwitterVideoUploader_Example */ = {
+			isa = PBXGroup;
+			children = (
+				23FEDC4600C63021EFE76F428FB42200 /* Info.plist */,
+				05FFF58E170BEB97EDCF0DCB3805008C /* Pods-MGTwitterVideoUploader_Example.modulemap */,
+				2A186212579610504D748A1395E6EE53 /* Pods-MGTwitterVideoUploader_Example-acknowledgements.markdown */,
+				20BEA8B1A1C0453292C25E25E6CC5EB2 /* Pods-MGTwitterVideoUploader_Example-acknowledgements.plist */,
+				F5598FC8E961DA7C3AADD8B1D89F22FC /* Pods-MGTwitterVideoUploader_Example-dummy.m */,
+				EF3BD72B8E0880DDC0288A338EBBA18E /* Pods-MGTwitterVideoUploader_Example-frameworks.sh */,
+				066AC5231D679A481666F0B3F14075FE /* Pods-MGTwitterVideoUploader_Example-resources.sh */,
+				19CBE3993EBD7A440BD5B2602AE9F1E7 /* Pods-MGTwitterVideoUploader_Example-umbrella.h */,
+				8B89145CC577F8A2B4950D954A99BBB6 /* Pods-MGTwitterVideoUploader_Example.debug.xcconfig */,
+				772F2B6F53B95F128EE65BFD00F1F456 /* Pods-MGTwitterVideoUploader_Example.release.xcconfig */,
+			);
+			name = "Pods-MGTwitterVideoUploader_Example";
+			path = "Target Support Files/Pods-MGTwitterVideoUploader_Example";
+			sourceTree = "<group>";
+		};
+		FE81DFF4B73DD3F266AD83C541CFFDCF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ACB71721B34CC483AA164CB7E7D1AEB /* Info.plist */,
+				13DA18CF65DE168C3DABC2A0A681C731 /* MGTwitterVideoUploader.modulemap */,
+				8A2AF05391B9C0C6D6CC457CA7A210B6 /* MGTwitterVideoUploader.xcconfig */,
+				89590AF0EB8288160D1AC13AB5A62AB0 /* MGTwitterVideoUploader-dummy.m */,
+				D0390BE7A0559BEE53A08FA6D88B6B78 /* MGTwitterVideoUploader-prefix.pch */,
+				3C19555A598B8A4EE564B374D69891E2 /* MGTwitterVideoUploader-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MGTwitterVideoUploader";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EFE2463A7C567DBDA44C97A3CBFF0DE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C3D01302AC67ABB88E20F85343D813 /* Pods-MGTwitterVideoUploader_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA74FF62279CBDFBA5F05AE53C86B764 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060BED2214C3FCE1726AC272374305DC /* Pods-MGTwitterVideoUploader_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB0A8AF078F027A88B1E3F704A8AAF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2677B6C97ABBBD608C032CAB8CD99D /* MGTwitterVideoUploader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A2C2B9778F0223BC1DEA640264C91F44 /* MGTwitterVideoUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A9C4467137B60C3D6C585B0D15717B3 /* Build configuration list for PBXNativeTarget "MGTwitterVideoUploader" */;
+			buildPhases = (
+				63222F1B587538CCA3DEAA677BE0ACBA /* Sources */,
+				F911C95ED742ABE7446C774C8F76325F /* Frameworks */,
+				FAB0A8AF078F027A88B1E3F704A8AAF4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGTwitterVideoUploader;
+			productName = MGTwitterVideoUploader;
+			productReference = 47CA36881B155EA4100DAA01136B86A8 /* MGTwitterVideoUploader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDF84AE6D4AC713D45E935A36D175931 /* Pods-MGTwitterVideoUploader_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E800D3285280B50BCAB5830F1F22495 /* Build configuration list for PBXNativeTarget "Pods-MGTwitterVideoUploader_Example" */;
+			buildPhases = (
+				3BA043428326C6393633E3F5F701ECD8 /* Sources */,
+				C66486B16CB61885F922E2A0A4404310 /* Frameworks */,
+				FA74FF62279CBDFBA5F05AE53C86B764 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A3FF71704D1A56CA2FB5B44C9150184 /* PBXTargetDependency */,
+			);
+			name = "Pods-MGTwitterVideoUploader_Example";
+			productName = "Pods-MGTwitterVideoUploader_Example";
+			productReference = EF068FA12A4CB6E4F43BC9AD3B7518D2 /* Pods_MGTwitterVideoUploader_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2AC522C43B91A49BC1C1D8BBFA39E56 /* Pods-MGTwitterVideoUploader_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F23852B30C82520F21C5567ED8ED0BF /* Build configuration list for PBXNativeTarget "Pods-MGTwitterVideoUploader_Tests" */;
+			buildPhases = (
+				F6085E690F4B219721984F60509D6E60 /* Sources */,
+				193842B2F145D803F78103D8E49DA033 /* Frameworks */,
+				EFE2463A7C567DBDA44C97A3CBFF0DE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MGTwitterVideoUploader_Tests";
+			productName = "Pods-MGTwitterVideoUploader_Tests";
+			productReference = 510E19BB2C68455ECB3050D48E17F32C /* Pods_MGTwitterVideoUploader_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					A2C2B9778F0223BC1DEA640264C91F44 = {
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2E3080E7F1FEACE689CF42843F91217B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2C2B9778F0223BC1DEA640264C91F44 /* MGTwitterVideoUploader */,
+				EDF84AE6D4AC713D45E935A36D175931 /* Pods-MGTwitterVideoUploader_Example */,
+				F2AC522C43B91A49BC1C1D8BBFA39E56 /* Pods-MGTwitterVideoUploader_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA043428326C6393633E3F5F701ECD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C74B6BC5DC171EB50CAF1804349379 /* Pods-MGTwitterVideoUploader_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63222F1B587538CCA3DEAA677BE0ACBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FBC05219460C42D1494329C0CA6744 /* MGTwitterVideoUploader-dummy.m in Sources */,
+				FB7190641EB3711C00A63E52 /* MGTwitterVideoUploader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6085E690F4B219721984F60509D6E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF08894B4A0FA8EC340F9D68F13E195E /* Pods-MGTwitterVideoUploader_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A3FF71704D1A56CA2FB5B44C9150184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGTwitterVideoUploader;
+			target = A2C2B9778F0223BC1DEA640264C91F44 /* MGTwitterVideoUploader */;
+			targetProxy = 8BE37A5BA8230ABC912800DDB886C296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13DD262E4DA5ED6D1BA8585D2230A5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD7D6071366846EF1C5FCE26036BB1B /* Pods-MGTwitterVideoUploader_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MGTwitterVideoUploader_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGTwitterVideoUploader_Tests/Pods-MGTwitterVideoUploader_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MGTwitterVideoUploader_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		15DD4C6F771DFCC5B67436A5F94332E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2AF05391B9C0C6D6CC457CA7A210B6 /* MGTwitterVideoUploader.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MGTwitterVideoUploader/MGTwitterVideoUploader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGTwitterVideoUploader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGTwitterVideoUploader/MGTwitterVideoUploader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MGTwitterVideoUploader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		42E8BE8ED960E8219A6D8E31578B10A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B89145CC577F8A2B4950D954A99BBB6 /* Pods-MGTwitterVideoUploader_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MGTwitterVideoUploader_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGTwitterVideoUploader_Example/Pods-MGTwitterVideoUploader_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MGTwitterVideoUploader_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48607775477912D23D866C3B092A3E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2AF05391B9C0C6D6CC457CA7A210B6 /* MGTwitterVideoUploader.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MGTwitterVideoUploader/MGTwitterVideoUploader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGTwitterVideoUploader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGTwitterVideoUploader/MGTwitterVideoUploader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MGTwitterVideoUploader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE333660A385FD5AE4AE34EC3181C3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA5F497B915F3181E097837AF35CD1DE /* Pods-MGTwitterVideoUploader_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MGTwitterVideoUploader_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGTwitterVideoUploader_Tests/Pods-MGTwitterVideoUploader_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MGTwitterVideoUploader_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9F3F9545F8C1648335EAE6E281D4250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 772F2B6F53B95F128EE65BFD00F1F456 /* Pods-MGTwitterVideoUploader_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MGTwitterVideoUploader_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGTwitterVideoUploader_Example/Pods-MGTwitterVideoUploader_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MGTwitterVideoUploader_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F23852B30C82520F21C5567ED8ED0BF /* Build configuration list for PBXNativeTarget "Pods-MGTwitterVideoUploader_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE333660A385FD5AE4AE34EC3181C3B1 /* Debug */,
+				13DD262E4DA5ED6D1BA8585D2230A5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A9C4467137B60C3D6C585B0D15717B3 /* Build configuration list for PBXNativeTarget "MGTwitterVideoUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DD4C6F771DFCC5B67436A5F94332E5 /* Debug */,
+				48607775477912D23D866C3B092A3E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E800D3285280B50BCAB5830F1F22495 /* Build configuration list for PBXNativeTarget "Pods-MGTwitterVideoUploader_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E8BE8ED960E8219A6D8E31578B10A8 /* Debug */,
+				D9F3F9545F8C1648335EAE6E281D4250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

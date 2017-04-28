@@ -1,0 +1,6 @@
+framework module MGTwitterVideoUploader {
+  umbrella header "MGTwitterVideoUploader-umbrella.h"
+
+  export *
+  module * { export * }
+}

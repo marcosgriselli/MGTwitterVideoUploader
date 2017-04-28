@@ -1,0 +1,6 @@
+framework module Pods_MGTwitterVideoUploader_Example {
+  umbrella header "Pods-MGTwitterVideoUploader_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
