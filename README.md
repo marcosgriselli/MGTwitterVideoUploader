@@ -33,6 +33,7 @@ twitterUploader.errorCallback = { error in
 
 twitterUploader.postVideo(videoURL: URL(fileURLWithPath: videoPath), withStatus: textView.text)
 ```
+
 ## Project Details
 
 ### Requirements
